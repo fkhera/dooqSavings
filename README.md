@@ -35,5 +35,12 @@ npm install socket.io
 npm install underscore
 npm install webpage
 
+To configure particular companies
+View Company Template and tweak as necessary:
+
+To add a new company:
+create app[CompanyName].js file  copy other ones as needed
+Edit companyTemplate.js and add to the map with the right Information
+Make sure to not duplicate port.
 
 
