@@ -1,0 +1,29 @@
+{
+  "name": "dooqSavings",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "async": "latest",
+    "asyncgo": "latest",
+    "cheerio": "latest",
+    "express": "latest",
+    "forever-monitor": "latest",
+    "fs": "latest",
+    "http": "latest",
+    "jquery": "latest",
+    "jquerygo": "latest",
+    "jsdom": "latest",
+    "node-gyp": "latest",
+    "nodemailer": "latest",
+    "nodemailer-smtp-transport": "latest",
+    "node-phantom": "latest",
+    "page": "latest",
+    "phantom": "latest",
+    "phantomjs": "latest",
+    "python": "latest",
+    "request": "latest",
+    "socket.io": "latest",
+    "underscore": "latest",
+    "webpage": "latest"
+  }
+}
