@@ -24,8 +24,6 @@ exports.sendEmail = function(companyName, value, percent, link)
 	var mailOptions = {
     from: "[add from email here]", // sender address
     bcc: "[add emails here]",
- // list of receivers
-    /*to: "farooq.khera@gmail.com",*/
     subject: "Alert deal found for " + companyName + " " + percent + "%", // Subject line
     text: text,
     html: text
