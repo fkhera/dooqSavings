@@ -21,12 +21,9 @@ exports.sendEmail = function(companyName, value, percent, link)
 		"Current Value: " + value + "<br>" +
 		"Follow Link: " + link + "<br>";
 		
-	//bcc: "farooq.khera@gmail.com, JKaravak@gmail.com, rfidler78@gmail.com, nkaravakis@gmail.com, Athekdi@asu.edu, bmgraham36@gmail.com  ", // list of receivers
-	//to: farooq.khera@gmail.com
-	
 	var mailOptions = {
-    from: "Dooq Savings <dooqsavings@gmail.com>", // sender address
-    bcc: "farooq.khera@gmail.com, sfatima87@gmail.com, JKaravak@gmail.com, rfidler78@gmail.com, nkaravakis@gmail.com, bmgraham36@gmail.com, Richardlrowan@gmail.com, manches32@yahoo.com, dolicus@gmail.com, eragonpool@gmail.com, michaelderemer03@gmail.com, Colin.juillard@gmail.com, Rpmgolden66@gmail.com, johnbrianslater@gmail.com",
+    from: "[add from email here]", // sender address
+    bcc: "[add emails here]",
  // list of receivers
     /*to: "farooq.khera@gmail.com",*/
     subject: "Alert deal found for " + companyName + " " + percent + "%", // Subject line
